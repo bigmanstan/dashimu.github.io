@@ -1,0 +1,122 @@
+# Site settings
+title: 漠然 
+SEOTitle: 漠然的博客 | mritd Blog
+header-img: img/home-bg.jpg
+email: mritd1234@gmail.com
+description: "Nothing is impossible to a willing heart!"
+keyword: "漠然, 漠然的博客, mritd, Docker, Kubernetes, @mritd, mritd blog, 博客, 个人网站, Java, Web"
+url: "https://mritd.me"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: true
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
+github_username:    mritd
+telegram_username:  mritd
+twitter_username:   mritd1234
+#facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+date_format: "ordinal"
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+source_code: https://github.com/mritd/mritd.github.io
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: mritd
+disqus_url: "https://mritd.me"
+
+# Netease setttings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-82387173-1'            # Format: UA-xxxxxx-xx
+ga_domain: mritd.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Nothing is impossible to a willing heart!"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "谢雨轩",
+        href: "http://www.xieyuxuan.cc"
+    },{
+        title: "Ehlxr's Blog",
+        href: "https://ehlxr.me"
+    },{
+        title: "咚门",
+        href: "http://www.dearzd.com/DBlog"
+    },{
+        title: "Z",
+        href: "http://log.zvz.im"
+    },{
+        title: "容休博客",
+        href: "http://www.iwwenbo.com"
+    },{
+        title: "幽鸿居",
+        href: "http://www.webank.pw"
+    },{
+        title: "Ephen's Blog",
+        href: "http://ephen.me"
+    },{
+        title: "CodeSheep",
+        href: "https://www.codesheep.cn"
+    }
+]
