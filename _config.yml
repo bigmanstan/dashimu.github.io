@@ -1,9 +1,9 @@
 # Site settings
 title: dashimu blog 
-SEOTitle: dashimu blog | mritd Blog
+SEOTitle: dashimu blog | progromming Blog
 header-img: img/home-bg.jpg
 email: learning2010@gmail.com
-description: "Nothing is impossible to a willing heart!"
+description: "Never give up and keep going!"
 keyword: " dashimu blog, blog, 博客, 个人网站, Web, anki" 
 url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -75,7 +75,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Nothing is impossible to a willing heart!"
+sidebar-about-description: "Never give up and keep up going!"
 sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
